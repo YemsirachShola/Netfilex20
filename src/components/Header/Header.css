@@ -1,0 +1,35 @@
+.header-outer-contanier{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;background-color: black;
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: all 0.55;
+  /* transition-timing-function: ease-in; */
+  z-index: 1;
+}
+.hader-contanier{
+ width: 90%; 
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center;
+
+}
+.header-left  ul{
+width: 140%;
+display: flex;
+justify-content: space-between;
+list-style: none;
+align-items: center;
+cursor: pointer;
+}
+.header-right  ul {
+width: 150%;
+display: flex;
+justify-content: space-between;
+list-style: none;
+align-items: center;
+cursor: pointer;
+}
